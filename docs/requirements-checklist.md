@@ -11,7 +11,7 @@ The source PDF has three pages. Requirements R01–R13 trace to its explicit req
 | R05 | PDF p.2: data relevant to purchases in January 2026 | Scope interpreted as January delivery intervals; 1,488 expected settlement intervals, 31 days, date-scope test | COMPLETE AND VERIFIED |
 | R06 | PDF p.2: React frontend and Python backend | React/Vite frontend and FastAPI API; production build succeeded and local API served live data | COMPLETE AND VERIFIED |
 | R07 | PDF p.2: use Docker | Root Dockerfile and Compose setup provided; Docker CLI is not installed in this environment, so image was not built | IMPLEMENTED BUT NOT VERIFIED |
-| R08 | PDF p.2: deploy on Vercel or Heroku | Single-container Heroku deployment path documented; no Heroku account/CLI or verified deployment URL available | BLOCKED — USER ACTION REQUIRED |
+| R08 | PDF p.2: deploy on Vercel or Heroku | Vercel FastAPI entrypoint and React build configuration added; public deployment still needs Vercel account import and verification | IMPLEMENTED — DEPLOYMENT PENDING |
 | R09 | PDF p.2: spend no more than 16 hours | Work remained within the stated time cap and the product stayed within scope | COMPLETE AND VERIFIED |
 | R10 | PDF p.2–3: customer pitch ≤5 minutes, technical-lead review ≤5 minutes, combined ≤10 minutes; unlisted YouTube video | Two 4:30 timed scripts and recording checklist in `docs/demo-script.md`; actual recording/upload remains to be done | BLOCKED — USER ACTION REQUIRED |
 | R11 | PDF p.3: public GitHub repository with anonymous name | Published and verified at https://github.com/ankush-48/k7v3m9q2; all 23 project and documentation files are present; repository slug is randomly generated | COMPLETE AND VERIFIED |
