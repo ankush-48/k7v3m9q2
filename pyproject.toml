@@ -1,0 +1,6 @@
+[tool.vercel]
+entrypoint = "backend.app.main:app"
+
+[tool.vercel.scripts]
+build = "corepack enable && corepack prepare pnpm@11.25.0 --activate && cd frontend && pnpm install --frozen-lockfile && pnpm run build"
+
