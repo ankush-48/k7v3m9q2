@@ -10,6 +10,8 @@ backend/app/elexon.py               Elexon HTTP client, timeouts, retries and so
 backend/app/analytics.py            Timestamp cleanup, vintage selection and error metrics
 backend/tests/test_analytics.py     Forecast cutoff and calculation unit tests
 backend/requirements.txt            Python API dependencies
+requirements.txt                    Root dependency entry for Vercel's Python runtime
+pyproject.toml                      Vercel FastAPI entrypoint and frontend build command
 frontend/index.html                 Frontend document and page metadata
 frontend/src/main.jsx               React dashboard, metrics, chart, controls and CSV export
 frontend/src/styles.css             Responsive dashboard styles
@@ -83,7 +85,7 @@ heroku container:release web -a <anonymous-app-name>
 heroku open -a <anonymous-app-name>
 ```
 
-A public deployment has **not** yet been created or verified; add the real accessible URL here after deployment: **Not deployed yet.**
+**Production app:** https://k7v3m9q2-five.vercel.app. The dashboard and live January data were verified, and `/api/health` returned `{"status":"ok","service":"wind-vintage-api"}` on 29 October 2026.
 
 Public source repository: https://github.com/ankush-48/k7v3m9q2 (public; the repository slug is randomly generated). See `docs/submission-checklist.md` for the remaining deployment, video, and form steps.
 
