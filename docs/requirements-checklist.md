@@ -14,8 +14,8 @@ The source PDF has three pages. Requirements R01–R13 trace to its explicit req
 | R08 | PDF p.2: deploy on Vercel or Heroku | Single-container Heroku deployment path documented; no Heroku account/CLI or verified deployment URL available | BLOCKED — USER ACTION REQUIRED |
 | R09 | PDF p.2: spend no more than 16 hours | Work remained within the stated time cap and the product stayed within scope | COMPLETE AND VERIFIED |
 | R10 | PDF p.2–3: customer pitch ≤5 minutes, technical-lead review ≤5 minutes, combined ≤10 minutes; unlisted YouTube video | Two 4:30 timed scripts and recording checklist in `docs/demo-script.md`; actual recording/upload remains to be done | BLOCKED — USER ACTION REQUIRED |
-| R11 | PDF p.3: public GitHub repository with anonymous name | Code prepared; no GitHub CLI/plugin authorization available and no public URL claimed | BLOCKED — USER ACTION REQUIRED |
-| R12 | PDF p.3: README includes files/directories, startup steps and deployed-app link | `README.md` has project structure, local/Docker instructions, AI disclosure, and a clearly marked unavailable deployment URL; the real app link awaits deployment | BLOCKED — USER ACTION REQUIRED |
+| R11 | PDF p.3: public GitHub repository with anonymous name | Published and verified at https://github.com/ankush-48/k7v3m9q2; all 23 project and documentation files are present; repository slug is randomly generated | COMPLETE AND VERIFIED |
+| R12 | PDF p.3: README includes files/directories, startup steps and deployed-app link | `README.md` has project structure, local/Docker instructions, AI disclosure, and the public repository URL; the actual deployed-app link awaits deployment | BLOCKED — DEPLOYMENT URL REQUIRED |
 | R13 | PDF p.3: submission form; verify every submitted URL in incognito | PDF names a form but includes no URL; checklist provides actual-field placeholders and manual incognito steps | BLOCKED — USER ACTION REQUIRED |
 | R14 | User prompt: cutoff is explicit/configurable and no later forecast can leak into evaluation | Default noon Europe/London on prior day, with cutoff selector; latest eligible forecast logic; six tests pass | COMPLETE AND VERIFIED |
 | R15 | User prompt: robust external API access and reusable validation | Published-time filters, timeout, retries/backoff, response validation, UTC normalization, missing/duplicate handling, 15-minute cache | COMPLETE AND VERIFIED |
@@ -24,7 +24,7 @@ The source PDF has three pages. Requirements R01–R13 trace to its explicit req
 | R18 | User prompt: test Docker where possible | Docker configuration exists; container build/run could not be executed because Docker CLI is unavailable | IMPLEMENTED BUT NOT VERIFIED |
 | R19 | User prompt: complete documentation and AI disclosure | README, data-verification notes, traceability, demo script and submission checklist reviewed; README identifies Codex use | COMPLETE AND VERIFIED |
 | R20 | User prompt: no secrets or credentials in source | Public endpoints require no key; no secrets included; `.env` ignored and `.env.example` contains no secret values | COMPLETE AND VERIFIED |
-| R21 | User prompt: final public deployment, repo, video, form submission and incognito checks | Exact remaining steps recorded in `docs/submission-checklist.md`; external accounts and personal video actions remain | BLOCKED — USER ACTION REQUIRED |
+| R21 | User prompt: final public deployment, repo, video, form submission and incognito checks | Public repository is published; deployment, user-recorded video, locating/submitting the form, and incognito checks remain in `docs/submission-checklist.md` | PARTIALLY COMPLETE |
 
 ## Source-grounded interpretation and assumptions
 
