@@ -67,7 +67,7 @@ Open `http://localhost:8000`. To stop the service, press `Ctrl+C` and run `docke
 
 ## Deployment
 
-The project is configured for a Git-based Vercel deployment. The root `pyproject.toml` points Vercel to the FastAPI app, installs Python dependencies from the root `requirements.txt`, and builds the React dashboard from `frontend/`.
+The project is configured for a Git-based Vercel deployment. The root `pyproject.toml` points Vercel to the FastAPI app, installs Python dependencies from the root `requirements.txt`, and builds the React dashboard from `frontend/` with a version-pinned pnpm command.
 
 1. Import `ankush-48/k7v3m9q2` at [vercel.com/new](https://vercel.com/new) and authorize access to this repository.
 2. Keep the project root at `.`. Vercel reads `pyproject.toml` and builds the frontend with pnpm.
