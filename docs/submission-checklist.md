@@ -5,7 +5,7 @@ The assignment PDF names a form titled “Full Stack SWE challenge submission v4
 ## Values to provide
 
 - **Public GitHub repository:** https://github.com/ankush-48/k7v3m9q2 (public repository; random slug; source files uploaded and verified).
-- **Deployed application:** Not deployed or verified. Import the GitHub repository into Vercel using the instructions in `README.md`, deploy, and paste its actual URL here.
+- **Deployed application:** https://k7v3m9q2-five.vercel.app (Vercel production deployment; dashboard and `/api/health` verified).
 - **Unlisted YouTube demo:** Not recorded or uploaded. Record the two-part script in `demo-script.md`, upload as Unlisted, and paste its actual URL here.
 - **Other form fields:** Unknown until the real form is located. Use only fields actually shown by the form.
 
@@ -15,8 +15,7 @@ Before submitting, open each actual URL in a private/incognito browser window wi
 
 ## User actions still needed
 
-1. Import the public repository into Vercel, deploy, and verify `/api/health` plus the dashboard in an incognito window. If Vercel requires a paid plan or billing details, stop and review that directly with the provider before proceeding.
-2. Record the demo personally, upload to YouTube, and set it to Unlisted.
-3. Locate the assessment form from the source that provided it, enter the actual verified URLs and any other requested fields, then submit.
-4. Perform the incognito access check for all URLs before submitting.
+1. Record the demo personally, upload to YouTube, and set it to Unlisted.
+2. Locate the assessment form from the source that provided it, enter the actual verified URLs and any other requested fields, then submit.
+3. Perform the incognito access check for all URLs before submitting.
 
