@@ -67,7 +67,13 @@ Open `http://localhost:8000`. To stop the service, press `Ctrl+C` and run `docke
 
 ## Deployment
 
-This is a single-container React + Python application and is prepared for Heroku Container Registry deployment. After installing Docker and the Heroku CLI and signing in, from the project root:
+The project is configured for a Git-based Vercel deployment. The root `pyproject.toml` points Vercel to the FastAPI app, installs Python dependencies from the root `requirements.txt`, and builds the React dashboard from `frontend/`.
+
+1. Import `ankush-48/k7v3m9q2` at [vercel.com/new](https://vercel.com/new) and authorize access to this repository.
+2. Keep the project root at `.`. Vercel reads `pyproject.toml` and builds the frontend with pnpm.
+3. Deploy, then verify `/api/health` returns `{"status":"ok","service":"wind-vintage-api"}` and the dashboard loads live data.
+
+The app is also compatible with Heroku Container Registry. That path requires Docker and the Heroku CLI, then:
 
 ```powershell
 heroku create <anonymous-app-name> --stack container
@@ -77,7 +83,7 @@ heroku container:release web -a <anonymous-app-name>
 heroku open -a <anonymous-app-name>
 ```
 
-Heroku supplies `PORT`, which the container uses. A public deployment has **not** been created or verified; replace this line with the real accessible URL after deployment: **Not deployed yet.**
+A public deployment has **not** yet been created or verified; add the real accessible URL here after deployment: **Not deployed yet.**
 
 Public source repository: https://github.com/ankush-48/k7v3m9q2 (public; the repository slug is randomly generated). See `docs/submission-checklist.md` for the remaining deployment, video, and form steps.
 
