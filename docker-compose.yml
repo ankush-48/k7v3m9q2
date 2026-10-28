@@ -1,0 +1,10 @@
+services:
+  wind-vintage:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+      ELEXON_TIMEOUT_SECONDS: "25"
+    restart: unless-stopped
+
