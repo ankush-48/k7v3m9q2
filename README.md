@@ -79,7 +79,7 @@ heroku open -a <anonymous-app-name>
 
 Heroku supplies `PORT`, which the container uses. A public deployment has **not** been created or verified; replace this line with the real accessible URL after deployment: **Not deployed yet.**
 
-The brief also requires a public anonymous GitHub repository. This workspace is not yet published; no repository URL is claimed. See `docs/submission-checklist.md` for remaining submission fields and access checks.
+Public source repository: https://github.com/ankush-48/k7v3m9q2 (public; the repository slug is randomly generated). See `docs/submission-checklist.md` for the remaining deployment, video, and form steps.
 
 ## Business interpretation and methodology
 
