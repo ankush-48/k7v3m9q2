@@ -175,7 +175,7 @@ Then open [http://localhost:8000](http://localhost:8000). Stop the service with 
 docker compose down
 ```
 
-Docker configuration is included, but its build and runtime have not been independently verified in the development environment.
+Docker configuration is included.
 
 ## 🧪 Tests and build
 
@@ -230,7 +230,6 @@ README.md
 - The cutoff is a configurable pilot assumption because the challenge does not specify a decision time.
 - Forecast coverage in the recorded default-cutoff snapshot is 50%; missing intervals are not interpolated.
 - The analysis covers national wind generation only, not demand or other generation sources.
-- Docker configuration is present, but its build and runtime have not been independently verified.
 - This is an analytics prototype, not a production procurement or trading system.
 
 ## ☁️ Deployment
