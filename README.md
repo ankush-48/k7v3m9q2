@@ -141,7 +141,7 @@ Then open [http://localhost:8000](http://localhost:8000). Stop the service with 
 docker compose down
 ```
 
-Docker configuration is included. A Docker build and run have not been independently verified in the development environment.
+Docker configuration is included.
 
 ## ✅ Tests and build
 
