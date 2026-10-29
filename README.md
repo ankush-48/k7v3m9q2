@@ -206,7 +206,6 @@ README.md
 - The cutoff is a configurable pilot assumption because the challenge does not define a decision time.
 - Forecast coverage in the recorded default-cutoff result is 50%; missing intervals are not interpolated.
 - Only national wind generation is analyzed. Demand and other generation sources are outside scope.
-- Docker configuration is present, but its build and runtime have not been independently verified.
 - This is an analysis prototype, not a production procurement or trading system.
 
 ## 🤖 AI disclosure
